@@ -22,11 +22,11 @@
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
             bindings = <
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE                          &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE                          &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE                          &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER
-&kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER  &kp ENTER
-                                 &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE    &kp RET    &kp ENTER  &kp ENTER  &kp ENTER
+&kp SPACE         &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE  &kp SPACE                         &kp N6  &kp N7    &kp N8     &kp N9   &kp N0    &kp EQUAL
+&kp SPACE         &kp SPACE  &kp SPACE  &kp E      &kp SPACE  &kp T                             &kp Y   &kp U     &kp I      &kp O    &kp P     &kp MINUS
+&kp LEFT_CONTROL  &kp A      &kp S      &kp D      &kp F      &kp G                             &kp H   &kp J     &kp K      &kp L    &kp SEMI  &kp SQT
+&kp LEFT_SHIFT    &kp Z      &kp X      &kp C      &kp V      &kp B      &kp LBKT     &kp RBKT  &kp N   &kp M     &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+                                        &kp LALT   &kp LGUI   &mo 1      &kp SPACE    &kp RET   &mo 2   &kp BSPC  &kp RGUI
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
